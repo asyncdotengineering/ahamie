@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" role="img" aria-label="Ahamie logo">
+  <title>Ahamie — the company brain you own</title>
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="42%" r="65%">
+      <stop offset="0%" stop-color="#FFF4E6"/>
+      <stop offset="60%" stop-color="#FFE6CE"/>
+      <stop offset="100%" stop-color="#F4C9A1"/>
+    </radialGradient>
+    <radialGradient id="body" cx="50%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#FFD7A8"/>
+      <stop offset="65%" stop-color="#F2A867"/>
+      <stop offset="100%" stop-color="#D88340"/>
+    </radialGradient>
+    <radialGradient id="core" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFFAEC"/>
+      <stop offset="55%" stop-color="#FFD37A"/>
+      <stop offset="100%" stop-color="#E0892F"/>
+    </radialGradient>
+    <radialGradient id="cheek" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FF9D86" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#FF9D86" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="flame" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFE070"/>
+      <stop offset="55%" stop-color="#FF9F45"/>
+      <stop offset="100%" stop-color="#E55A20"/>
+    </linearGradient>
+    <filter id="soft" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6"/>
+    </filter>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="12" result="b"/>
+      <feMerge>
+        <feMergeNode in="b"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- background squircle -->
+  <rect x="0" y="0" width="512" height="512" rx="112" ry="112" fill="url(#bg)"/>
+
+  <!-- subtle ground shadow -->
+  <ellipse cx="256" cy="430" rx="138" ry="14" fill="#A8642A" opacity="0.18" filter="url(#soft)"/>
+
+  <!-- flame wisp above the head (Hono = flame) -->
+  <g filter="url(#glow)">
+    <path d="M256 64
+             C242 96 232 110 244 130
+             C220 122 222 154 240 170
+             C246 152 268 152 274 170
+             C292 154 294 122 270 130
+             C282 110 270 96 256 64Z"
+          fill="url(#flame)"/>
+    <circle cx="256" cy="98" r="6" fill="#FFF4D6" opacity="0.9"/>
+  </g>
+
+  <!-- chibi body — round, friendly orb-creature -->
+  <g>
+    <!-- ear/tuft left -->
+    <path d="M120 215 Q132 180 158 200 Q150 218 138 226 Z" fill="#D88340"/>
+    <!-- ear/tuft right -->
+    <path d="M392 215 Q380 180 354 200 Q362 218 374 226 Z" fill="#D88340"/>
+
+    <!-- main round body -->
+    <circle cx="256" cy="282" r="148" fill="url(#body)"/>
+
+    <!-- belly highlight -->
+    <ellipse cx="256" cy="320" rx="92" ry="64" fill="#FFE6C4" opacity="0.55"/>
+
+    <!-- inner glowing core: the "aham" — Tamil for self / inner core -->
+    <circle cx="256" cy="306" r="58" fill="url(#core)" opacity="0.95"/>
+    <circle cx="256" cy="306" r="58" fill="none" stroke="#B95F1A" stroke-width="3" opacity="0.35"/>
+
+    <!-- Tamil syllable "அக" (aham) inside the core, hand-traced -->
+    <g fill="#7A3A0E" opacity="0.92">
+      <!-- "அ" — left character -->
+      <path d="M226 290
+               c-4 0 -7 3 -7 7
+               c0 6 5 11 11 11
+               c1 0 2 0 2 -1
+               l0 12
+               c0 3 -3 5 -6 5
+               c-2 0 -4 -1 -5 -2
+               l-2 4
+               c2 2 5 3 8 3
+               c5 0 9 -3 9 -8
+               l0 -28
+               c0 -2 -1 -3 -3 -3
+               z
+               M225 295
+               c0 -1 1 -2 2 -2
+               c2 0 3 1 3 3
+               c0 2 -1 3 -3 3
+               c-2 0 -2 -1 -2 -4
+               z" />
+      <!-- "க" — right character -->
+      <path d="M268 290
+               c0 -2 2 -3 4 -3
+               l10 0
+               c2 0 4 1 4 3
+               l0 26
+               c0 3 -2 5 -5 5
+               c-1 0 -2 0 -3 -1
+               l1 -4
+               c1 0 1 0 2 0
+               c2 0 2 -1 2 -2
+               l0 -24
+               l-7 0
+               l0 32
+               c0 1 0 2 -2 2
+               c-1 0 -2 -1 -2 -2
+               l0 -32
+               c-1 0 -3 0 -4 0
+               z" />
+    </g>
+
+    <!-- eyes -->
+    <ellipse cx="206" cy="248" rx="12" ry="14" fill="#3B1D08"/>
+    <ellipse cx="306" cy="248" rx="12" ry="14" fill="#3B1D08"/>
+    <ellipse cx="210" cy="244" rx="3.5" ry="4" fill="#FFFFFF"/>
+    <ellipse cx="310" cy="244" rx="3.5" ry="4" fill="#FFFFFF"/>
+
+    <!-- soft blush -->
+    <ellipse cx="178" cy="276" rx="22" ry="12" fill="url(#cheek)"/>
+    <ellipse cx="334" cy="276" rx="22" ry="12" fill="url(#cheek)"/>
+
+    <!-- tiny smile -->
+    <path d="M242 270 Q256 282 270 270" stroke="#3B1D08" stroke-width="3.5" stroke-linecap="round" fill="none"/>
+
+    <!-- little arms -->
+    <path d="M118 314 Q108 336 134 360 Q150 348 144 326 Z" fill="#D88340"/>
+    <path d="M394 314 Q404 336 378 360 Q362 348 368 326 Z" fill="#D88340"/>
+  </g>
+
+  <!-- hairline detail dot pattern (4 dots top-left, branding texture) -->
+  <g fill="#7A3A0E" opacity="0.18">
+    <circle cx="60" cy="60" r="3"/>
+    <circle cx="78" cy="60" r="3"/>
+    <circle cx="60" cy="78" r="3"/>
+    <circle cx="78" cy="78" r="3"/>
+  </g>
+</svg>

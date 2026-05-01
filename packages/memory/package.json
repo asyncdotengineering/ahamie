@@ -1,0 +1,54 @@
+{
+  "name": "@ahamie/memory",
+  "version": "0.1.0",
+  "description": "Wraps @mastra/memory; pgvector-backed default via @ahamie/storage.",
+  "license": "Apache-2.0",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit",
+    "clean": "rm -rf dist .turbo"
+  },
+  "dependencies": {
+    "@ahamie/schema": "workspace:*",
+    "@ahamie/storage": "workspace:*",
+    "drizzle-orm": "^0.45.2"
+  },
+  "peerDependencies": {
+    "@mastra/memory": "^1.17.0",
+    "@mastra/core": "^1.31.0"
+  },
+  "devDependencies": {
+    "@mastra/core": "^1.31.0",
+    "@mastra/memory": "^1.17.4",
+    "@types/node": "^22.10.0",
+    "tsup": "^8.5.1",
+    "typescript": "^5.6.3",
+    "vitest": "^2.1.5"
+  },
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "publishConfig": {
+    "access": "public",
+    "provenance": true
+  },
+  "ahamie": {
+    "kind": "runtime",
+    "specVersion": "0.1.0"
+  }
+}

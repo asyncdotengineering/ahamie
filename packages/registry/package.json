@@ -1,0 +1,49 @@
+{
+  "name": "@ahamie/registry",
+  "version": "0.1.0",
+  "description": "App registry client + bundle hashing. v0 local-only.",
+  "license": "Apache-2.0",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit",
+    "clean": "rm -rf dist .turbo"
+  },
+  "dependencies": {
+    "@ahamie/cas": "workspace:*",
+    "@ahamie/manifest": "workspace:*",
+    "@ahamie/schema": "workspace:*"
+  },
+  "devDependencies": {
+    "@ahamie/blobstore": "workspace:*",
+    "@types/node": "^22.10.0",
+    "tsup": "^8.5.1",
+    "typescript": "^5.6.3",
+    "vitest": "^2.1.5"
+  },
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "publishConfig": {
+    "access": "public",
+    "provenance": true
+  },
+  "ahamie": {
+    "kind": "runtime",
+    "specVersion": "0.1.0"
+  }
+}

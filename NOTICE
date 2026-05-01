@@ -1,0 +1,14 @@
+Ahamie
+Copyright 2026 Ahamie Authors
+
+This product includes software developed by the Ahamie project
+(https://github.com/ahamie/ahamie).
+
+This product includes software from Mastra (https://mastra.ai)
+licensed under Apache-2.0.
+
+This product includes software from Better-Auth (https://better-auth.com)
+licensed under MIT.
+
+This product wraps and extends additional open-source projects;
+see each package's package.json `dependencies` field for the full list.

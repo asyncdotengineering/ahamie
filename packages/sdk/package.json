@@ -1,0 +1,74 @@
+{
+  "name": "@ahamie/sdk",
+  "version": "0.1.0",
+  "description": "Ahamie SDK — public surface for the headless company-brain framework. defineAhamieConfig + re-exports.",
+  "license": "Apache-2.0",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    },
+    "./agent": {
+      "types": "./dist/agent.d.ts",
+      "import": "./dist/agent.js"
+    },
+    "./automation": {
+      "types": "./dist/automation.d.ts",
+      "import": "./dist/automation.js"
+    },
+    "./eval": {
+      "types": "./dist/eval.d.ts",
+      "import": "./dist/eval.js"
+    },
+    "./outcomes": {
+      "types": "./dist/outcomes.d.ts",
+      "import": "./dist/outcomes.js"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit",
+    "clean": "rm -rf dist .turbo"
+  },
+  "dependencies": {
+    "@ahamie/agent": "workspace:*",
+    "@ahamie/automation": "workspace:*",
+    "@ahamie/eval": "workspace:*",
+    "@ahamie/outcomes": "workspace:*",
+    "@ahamie/schema": "workspace:*",
+    "@ahamie/storage": "workspace:*",
+    "@ahamie/identity": "workspace:*",
+    "@ahamie/connector-proxy": "workspace:*"
+  },
+  "peerDependencies": {
+    "@mastra/core": "^1.31.0",
+    "zod": "^4.0.0 || ^3.25.0"
+  },
+  "devDependencies": {
+    "@mastra/core": "^1.31.0",
+    "@types/node": "^22.10.0",
+    "tsup": "^8.5.1",
+    "typescript": "^5.6.3",
+    "vitest": "^2.1.5"
+  },
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "publishConfig": {
+    "access": "public",
+    "provenance": true
+  },
+  "ahamie": {
+    "kind": "sdk",
+    "specVersion": "0.1.0"
+  }
+}

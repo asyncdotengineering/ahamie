@@ -1,0 +1,37 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry.json",
+  "name": "ahamie",
+  "homepage": "https://ahamie.dev",
+  "items": [
+    {
+      "name": "agent-run-tree",
+      "type": "registry:component",
+      "files": [{ "path": "src/agent-run-tree.tsx", "type": "registry:component" }],
+      "description": "Render the tree of agent steps for a single AgentRun."
+    },
+    {
+      "name": "run-console",
+      "type": "registry:component",
+      "files": [{ "path": "src/run-console.tsx", "type": "registry:component" }],
+      "description": "Stream a run's stdout / step transitions in real time."
+    },
+    {
+      "name": "approval-inbox",
+      "type": "registry:component",
+      "files": [{ "path": "src/approval-inbox.tsx", "type": "registry:component" }],
+      "description": "Inbox of suspended runs awaiting human approval."
+    },
+    {
+      "name": "connector-setup",
+      "type": "registry:component",
+      "files": [{ "path": "src/connector-setup.tsx", "type": "registry:component" }],
+      "description": "OAuth + manifest setup wizard for a connector."
+    },
+    {
+      "name": "manifest-editor",
+      "type": "registry:component",
+      "files": [{ "path": "src/manifest-editor.tsx", "type": "registry:component" }],
+      "description": "Form-driven editor for app manifests."
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "name": "company-brain-in-a-box",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "ahamie dev",
+    "test": "vitest run",
+    "db:migrate": "ahamie db migrate",
+    "eval": "ahamie eval --suite summarizer.suite"
+  },
+  "dependencies": {
+    "@ahamie/sdk": "workspace:*",
+    "@ahamie/cli": "workspace:*",
+    "@ahamie/agent": "workspace:*",
+    "@ahamie/automation": "workspace:*",
+    "@ahamie/eval": "workspace:*",
+    "@ahamie/outcomes": "workspace:*",
+    "@ahamie/storage": "workspace:*",
+    "@ahamie/identity": "workspace:*",
+    "@ahamie/connector-proxy": "workspace:*",
+    "@ahamie/connector-slack": "workspace:*",
+    "@ahamie/connector-linear": "workspace:*",
+    "@ahamie/ui": "workspace:*",
+    "@ahamie/schema": "workspace:*"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "tsx": "^4.21.0",
+    "typescript": "^5.6.3",
+    "vitest": "^2.1.5"
+  },
+  "ahamie": {
+    "kind": "example",
+    "specVersion": "0.1.0"
+  }
+}

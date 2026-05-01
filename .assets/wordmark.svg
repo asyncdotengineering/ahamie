@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 200" width="720" height="200" role="img" aria-label="Ahamie wordmark">
+  <title>Ahamie</title>
+  <defs>
+    <linearGradient id="wm" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#D86C2D"/>
+      <stop offset="55%" stop-color="#E58A3A"/>
+      <stop offset="100%" stop-color="#F2A867"/>
+    </linearGradient>
+  </defs>
+  <text x="0" y="148"
+        font-family="ui-rounded, 'SF Pro Rounded', 'Segoe UI Variable', 'Inter', system-ui, sans-serif"
+        font-size="156"
+        font-weight="800"
+        letter-spacing="-6"
+        fill="url(#wm)">ahamie</text>
+  <!-- subtle dot under "aham" syllable — the Tamil hidden inside -->
+  <circle cx="240" cy="178" r="6" fill="#D86C2D" opacity="0.55"/>
+</svg>

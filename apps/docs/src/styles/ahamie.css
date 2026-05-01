@@ -1,0 +1,18 @@
+/* Warm Ahamie palette — matches the chibi mascot. */
+:root {
+  --sl-color-accent-low: #fff4e6;
+  --sl-color-accent: #e58a3a;
+  --sl-color-accent-high: #b95f1a;
+  --sl-color-white: #fffaf2;
+  --sl-color-gray-1: #f6e7d2;
+  --sl-color-gray-2: #ddc7a3;
+  --sl-font: ui-rounded, "SF Pro Rounded", "Segoe UI Variable", "Inter", system-ui, sans-serif;
+  --sl-font-mono: ui-monospace, "JetBrains Mono", "SF Mono", monospace;
+}
+
+[data-theme="dark"] {
+  --sl-color-bg: #1a120a;
+  --sl-color-bg-nav: #221708;
+  --sl-color-bg-sidebar: #1a120a;
+  --sl-color-text: #f6e7d2;
+}

@@ -1,0 +1,63 @@
+{
+  "name": "@ahamie/cli",
+  "version": "0.1.0",
+  "description": "ahamie CLI: create | dev | build | deploy | ui add | publish | install | login | logout | run | eval | triggers | db migrate | db studio | secrets | factory | doctor.",
+  "license": "Apache-2.0",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "bin": {
+    "ahamie": "./dist/bin/ahamie.js"
+  },
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit",
+    "clean": "rm -rf dist .turbo"
+  },
+  "dependencies": {
+    "@ahamie/automation": "workspace:*",
+    "@ahamie/connector-proxy": "workspace:*",
+    "@ahamie/eval": "workspace:*",
+    "@ahamie/identity": "workspace:*",
+    "@ahamie/schema": "workspace:*",
+    "@ahamie/storage": "workspace:*",
+    "drizzle-orm": "^0.45.2",
+    "@clack/prompts": "^1.1.0",
+    "@commander-js/extra-typings": "^14.0.0",
+    "commander": "^14.0.0",
+    "execa": "^9.6.1",
+    "fs-extra": "^11.3.4",
+    "picocolors": "^1.1.1",
+    "yocto-spinner": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^11.0.4",
+    "@types/node": "^22.10.0",
+    "tsup": "^8.5.1",
+    "typescript": "^5.6.3",
+    "vitest": "^2.1.5"
+  },
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "publishConfig": {
+    "access": "public",
+    "provenance": true
+  },
+  "ahamie": {
+    "kind": "cli",
+    "specVersion": "0.1.0"
+  }
+}
