@@ -9,7 +9,8 @@
  * partially overridden, which left light-mode unreadable.
  */
 
-:root {
+:root,
+:root:root {
   /* Typography */
   --sl-font: ui-rounded, "SF Pro Rounded", "Segoe UI Variable", "Inter", system-ui, sans-serif;
   --sl-font-mono: ui-monospace, "JetBrains Mono", "SF Mono", monospace;
@@ -39,7 +40,11 @@
   --sl-color-hairline-shade: #2a1d10;
 }
 
-:root[data-theme="light"] {
+/* Selector duplicated on purpose — bumps specificity above Starlight's
+ * built-in `:root[data-theme=light], [data-theme=light] ::backdrop {...}`
+ * block, which otherwise wins on tie-break (it loads after consumer CSS).
+ */
+:root[data-theme="light"][data-theme="light"] {
   /* LIGHT MODE — warm cream paper: cream bg, deep brown text, coral accent */
   --sl-color-accent-low: #fff4e6;
   --sl-color-accent: #d86c2d;       /* darker coral so it pops on cream */
