@@ -1,6 +1,6 @@
 {
   "name": "@ahamie/cas",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Content-addressed object store: put/get/link at v0; walk/fork/refs at v1+.",
   "license": "Apache-2.0",
   "type": "module",

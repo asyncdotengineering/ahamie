@@ -1,6 +1,6 @@
 {
   "name": "@ahamie/telemetry",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Thin OTel layer for non-Mastra packages; bridges to Mastra Observability for AI spans.",
   "license": "Apache-2.0",
   "type": "module",

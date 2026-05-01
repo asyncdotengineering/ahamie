@@ -1,6 +1,6 @@
 {
   "name": "@ahamie/storage",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Drizzle schema, migrations, and pgvector helpers for Ahamie. Postgres everywhere — no PGlite, no SQLite.",
   "license": "Apache-2.0",
   "type": "module",

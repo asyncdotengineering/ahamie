@@ -1,6 +1,6 @@
 {
   "name": "@ahamie/cli",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "ahamie CLI: create | dev | build | deploy | ui add | publish | install | login | logout | run | eval | triggers | db migrate | db studio | secrets | factory | doctor.",
   "license": "Apache-2.0",
   "type": "module",

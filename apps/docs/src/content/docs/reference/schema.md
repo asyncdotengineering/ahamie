@@ -48,5 +48,5 @@ Every tenant-scoped table carries `org_id`. The Drizzle schema widens that colum
 
 ## Source
 
-- Drizzle schema: [`packages/storage/src/schema/`](https://github.com/ahamie/ahamie/tree/main/packages/storage/src/schema)
-- SQL migration: [`packages/storage/drizzle/0000_init.sql`](https://github.com/ahamie/ahamie/blob/main/packages/storage/drizzle/0000_init.sql)
+- Drizzle schema: [`packages/storage/src/schema/`](https://github.com/octalpixel/ahamie/tree/main/packages/storage/src/schema)
+- SQL migration: [`packages/storage/drizzle/0000_init.sql`](https://github.com/octalpixel/ahamie/blob/main/packages/storage/drizzle/0000_init.sql)

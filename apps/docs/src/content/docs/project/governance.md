@@ -3,7 +3,7 @@ title: Governance
 description: Anti-rug-pull pledge, maintainer council, decision making, security policy.
 ---
 
-The full text lives in [`GOVERNANCE.md`](https://github.com/ahamie/ahamie/blob/main/GOVERNANCE.md). Highlights:
+The full text lives in [`GOVERNANCE.md`](https://github.com/octalpixel/ahamie/blob/main/GOVERNANCE.md). Highlights:
 
 ## Anti-rug-pull pledge
 

@@ -7,7 +7,7 @@ We use **DCO** (`Signed-off-by:`), not a CLA. You retain copyright on every cont
 
 ## Workflow
 
-1. Fork [`ahamie/ahamie`](https://github.com/ahamie/ahamie)
+1. Fork [`ahamie/ahamie`](https://github.com/octalpixel/ahamie)
 2. Branch from `main`
 3. Write code + tests; ensure `pnpm test` passes (Postgres required for storage/identity)
 4. Commit with `git commit -s -m "…"` (the `-s` adds the DCO line)
@@ -24,7 +24,7 @@ We use **DCO** (`Signed-off-by:`), not a CLA. You retain copyright on every cont
 ## Local dev
 
 ```bash
-git clone https://github.com/ahamie/ahamie
+git clone https://github.com/octalpixel/ahamie
 cd ahamie
 pnpm install
 pnpm build
@@ -35,4 +35,4 @@ The `ahamie_test` database needs the `vector` extension installed.
 
 ## Code of conduct
 
-[Contributor Covenant 2.1](https://github.com/ahamie/ahamie/blob/main/CODE_OF_CONDUCT.md). Report violations to `conduct@ahamie.dev`.
+[Contributor Covenant 2.1](https://github.com/octalpixel/ahamie/blob/main/CODE_OF_CONDUCT.md). Report violations to `conduct@ahamie.dev`.

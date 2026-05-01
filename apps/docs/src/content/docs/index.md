@@ -13,7 +13,7 @@ hero:
       icon: right-arrow
       variant: primary
     - text: GitHub
-      link: https://github.com/ahamie/ahamie
+      link: https://github.com/octalpixel/ahamie
       icon: external
       variant: minimal
 ---

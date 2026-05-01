@@ -1,6 +1,6 @@
 {
   "name": "@ahamie/agent",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Wraps @mastra/core Agent with budget caps, outcome hooks, and Postgres LISTEN/NOTIFY cancellation.",
   "license": "Apache-2.0",
   "type": "module",

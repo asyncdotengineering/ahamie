@@ -1,6 +1,6 @@
 {
   "name": "@ahamie/identity",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Better-Auth wrapper + ACL + tenant middleware. Organization plugin from day 1 (T19).",
   "license": "Apache-2.0",
   "type": "module",

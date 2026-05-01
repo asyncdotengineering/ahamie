@@ -1,6 +1,6 @@
 {
   "name": "@ahamie/blobstore",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Byte tier interface (put/get/delete/list/stream) with a local-FS implementation; S3-compat adapter at v1.",
   "license": "Apache-2.0",
   "type": "module",

@@ -1,6 +1,6 @@
 {
   "name": "@ahamie/automation",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Trigger→Event→Run→Action→Delivery contract. Typed `on.*` namespace via module augmentation.",
   "license": "Apache-2.0",
   "type": "module",

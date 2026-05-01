@@ -1,6 +1,6 @@
 {
   "name": "@ahamie/sdk",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Ahamie SDK — public surface for the headless company-brain framework. defineAhamieConfig + re-exports.",
   "license": "Apache-2.0",
   "type": "module",

@@ -1,6 +1,6 @@
 {
   "name": "@ahamie/connector-proxy",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Standalone Hono server: token holding, allowlist, MCP-inside, HMAC ingress, audit. Five non-negotiable invariants (I1-I5).",
   "license": "Apache-2.0",
   "type": "module",

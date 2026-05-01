@@ -11,11 +11,11 @@ export default defineConfig({
       logo: { src: "./public/logo.png", alt: "Ahamie" },
       favicon: "/logo.png",
       social: [
-        { icon: "github", label: "GitHub", href: "https://github.com/ahamie/ahamie" },
+        { icon: "github", label: "GitHub", href: "https://github.com/octalpixel/ahamie" },
         { icon: "npm", label: "npm", href: "https://www.npmjs.com/org/ahamie" },
       ],
       editLink: {
-        baseUrl: "https://github.com/ahamie/ahamie/edit/main/apps/docs/",
+        baseUrl: "https://github.com/octalpixel/ahamie/edit/main/apps/docs/",
       },
       customCss: ["./src/styles/ahamie.css"],
       sidebar: [

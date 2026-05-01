@@ -115,7 +115,7 @@ SLACK_SIGNING_SECRET=
   "README.md": (name: string) => `
 # ${name}
 
-Built with [Ahamie](https://github.com/ahamie/ahamie). The company brain you own.
+Built with [Ahamie](https://github.com/octalpixel/ahamie). The company brain you own.
 
 \`\`\`bash
 pnpm install

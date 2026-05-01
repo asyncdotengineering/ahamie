@@ -18,7 +18,7 @@
   - **SDK + CLI + UI**: `@ahamie/sdk`, `@ahamie/cli` (16 verbs), `@ahamie/ui` (5 shadcn primitives), `create-ahamie` scaffolder.
   - **Sandboxes**: local-bwrap, docker, compute-sdk adapters.
 
-  Reference app: [`examples/company-brain-in-a-box`](https://github.com/ahamie/ahamie/tree/main/examples/company-brain-in-a-box).
+  Reference app: [`examples/company-brain-in-a-box`](https://github.com/octalpixel/ahamie/tree/main/examples/company-brain-in-a-box).
 
 ### Patch Changes
 

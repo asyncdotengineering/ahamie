@@ -1,6 +1,6 @@
 {
   "name": "@ahamie/connector-slack",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Slack adapter for the Ahamie connector proxy. 150-LOC body proves the shape (T8).",
   "license": "Apache-2.0",
   "type": "module",

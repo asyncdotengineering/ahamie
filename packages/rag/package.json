@@ -1,6 +1,6 @@
 {
   "name": "@ahamie/rag",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Wraps @mastra/rag (MDocument, vector tools, rerankers) for PDF/markdown/plaintext ingest.",
   "license": "Apache-2.0",
   "type": "module",

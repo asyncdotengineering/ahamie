@@ -1,6 +1,6 @@
 {
   "name": "@ahamie/ui",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Five v0 shadcn-style UI primitives: AgentRunTree, RunConsole, ApprovalInbox, ConnectorSetup, ManifestEditor.",
   "license": "MIT",
   "type": "module",

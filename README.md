@@ -41,7 +41,9 @@ Read the v0 plan in [`SPEC.md`](./SPEC.md). Documentation: [`apps/docs`](./apps/
 
 | | |
 |---|---|
-| Version | `0.1.0` (the v0 wedge — **straight out of the oven**) |
+| Version | `0.1.1` (the v0 wedge — **straight out of the oven**) |
+| Repo | [github.com/octalpixel/ahamie](https://github.com/octalpixel/ahamie) |
+| npm | [npmjs.com/~ahamie](https://www.npmjs.com/search?q=%40ahamie) — 27 packages live |
 | Maturity | **alpha** — APIs may shift before v1; semver discipline applies |
 | Cadence | **active development** — daily commits, weekly releases via changesets |
 | Runtime | Node ≥22 LTS primary; Bun supported on `core/cli` |
@@ -170,7 +172,7 @@ pnpm --filter @ahamie/docs dev
 We use **DCO** (`Signed-off-by:`), not a CLA. See [`GOVERNANCE.md`](./GOVERNANCE.md).
 
 ```bash
-git clone https://github.com/ahamie/ahamie
+git clone https://github.com/octalpixel/ahamie
 cd ahamie
 pnpm install
 pnpm build
