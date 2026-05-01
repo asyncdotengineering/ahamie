@@ -3,7 +3,7 @@ import starlight from "@astrojs/starlight";
 
 // Astro + Starlight + Diataxis-discipline: tutorial / how-to / reference / explanation.
 export default defineConfig({
-  site: "https://ahamie.dev",
+  site: "https://ahamie-docs.vercel.app",
   integrations: [
     starlight({
       title: "Ahamie",
