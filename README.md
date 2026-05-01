@@ -9,7 +9,7 @@
 [![npm](https://img.shields.io/npm/v/%40ahamie%2Fsdk?label=%40ahamie%2Fsdk&color=e58a3a)](https://www.npmjs.com/package/@ahamie/sdk)
 [![License: Apache-2.0](https://img.shields.io/badge/license-Apache--2.0-e58a3a.svg)](./LICENSE)
 [![Status: alpha](https://img.shields.io/badge/status-alpha-ff9d86)](#status)
-[![Docs](https://img.shields.io/badge/docs-ahamie--docs.vercel.app-2ecc71)](https://ahamie-docs.vercel.app)
+[![Docs](https://img.shields.io/badge/docs-ahamie--docs.vercel.app-2ecc71)](https://asyncdotengineering.github.io/ahamie/)
 [![Straight out of the oven](https://img.shields.io/badge/🔥-straight%20out%20of%20the%20oven-ff7a45)](#status)
 [![Active development](https://img.shields.io/badge/active-development-2ecc71)](#status)
 [![Node ≥22](https://img.shields.io/badge/node-%E2%89%A522-339933?logo=node.js&logoColor=white)](https://nodejs.org)
@@ -34,7 +34,7 @@ Ahamie wraps **Mastra** (`@mastra/core`, workflow, memory, RAG, observability, s
 - 🏭 **Software-factory mode** — the outer loop that revises the spec when the eval fails
 - 🛡️ **Connector-proxy trust boundary** with five non-negotiable invariants
 
-Read the v0 plan in [`SPEC.md`](./SPEC.md). Live docs: [**ahamie-docs.vercel.app**](https://ahamie-docs.vercel.app).
+Read the v0 plan in [`SPEC.md`](./SPEC.md). Live docs: [**asyncdotengineering.github.io/ahamie**](https://asyncdotengineering.github.io/ahamie/).
 
 ---
 
@@ -44,7 +44,7 @@ Read the v0 plan in [`SPEC.md`](./SPEC.md). Live docs: [**ahamie-docs.vercel.app
 |---|---|
 | Version | `0.1.1` (the v0 wedge — **straight out of the oven**) |
 | Repo | [github.com/asyncdotengineering/ahamie](https://github.com/asyncdotengineering/ahamie) |
-| Docs | [ahamie-docs.vercel.app](https://ahamie-docs.vercel.app) |
+| Docs | [asyncdotengineering.github.io/ahamie](https://asyncdotengineering.github.io/ahamie/) |
 | npm | [npmjs.com/~ahamie](https://www.npmjs.com/search?q=%40ahamie) — 27 packages live |
 | Maturity | **alpha** — APIs may shift before v1; semver discipline applies |
 | Cadence | **active development** — daily commits, weekly releases via changesets |
@@ -154,7 +154,7 @@ ahamie/
 
 ## Documentation
 
-**Live → [ahamie-docs.vercel.app](https://ahamie-docs.vercel.app)**
+**Live → [asyncdotengineering.github.io/ahamie](https://asyncdotengineering.github.io/ahamie/)**
 
 Source in [`apps/docs`](./apps/docs) (Astro + Starlight, Diataxis-discipline):
 

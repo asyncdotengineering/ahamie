@@ -5,6 +5,28 @@
 
 ---
 
+## D-010 — Plain-markdown index, no MDX (2026-05-02)
+
+**Decision.** The Starlight landing page (`apps/docs/src/content/docs/index.md`) uses plain markdown — no `<CardGrid>` / `<Card>` JSX components.
+
+**Why.** MDX integration with Astro 6 + Starlight 0.38 + the existing content config didn't process `import` statements (the line rendered as text with curly quotes, indicating Markdown not MDX parsing). Two attempts to wire `@astrojs/mdx` failed in non-obvious ways. Cards are visual polish, not load-bearing — bullets + bold headings carry the same information at zero risk.
+
+**Tradeoff.** If a future contributor wants the card UI, they'll need to debug the MDX integration or import Card components via a Starlight plugin path. The dependency was removed for cleanliness — re-add `@astrojs/mdx` if you need it.
+
+---
+
+## D-009 — Docs moved from Vercel to GitHub Pages (2026-05-02)
+
+**Decision.** `https://asyncdotengineering.github.io/ahamie/` is the canonical docs URL. The Vercel project (`octalpixels-projects/ahamie-docs`) is deprecated. Build pipeline is `.github/workflows/docs.yml` — same shape as `asyncdotengineering/thodare`.
+
+**Why.** Org-uniform deployment story. Both `thodare` and `ahamie` (and any future `asyncdotengineering/*` repo) ship docs through the same GitHub Pages workflow. One paths-filter file, no Vercel coupling, free hosting, one less account to log into.
+
+**Tradeoff.** GitHub Pages serves under `/<repo>/` so we set `base: "/ahamie"` in `astro.config.mjs`. All internal links must use the base prefix (Starlight handles this automatically; manual `<a href>` tags must use `/ahamie/...`).
+
+**Followup.** The marketing redirect `asyncdot.com/ahamie-docs` was updated to point at the new URL. The repo homepage on GitHub points at `https://asyncdotengineering.github.io/ahamie/`. The Vercel project is harmless if left in place but can be deleted.
+
+---
+
 ## D-008 — Local-Postgres test mode added alongside testcontainers (2026-05-02)
 
 **Decision.** `packages/storage/src/test-helpers.ts` now supports two modes: schema-isolated tests against a host-provided Postgres (`AHAMIE_TEST_PG_URL`), and the original testcontainers fallback. macOS/laptop development uses Postgres.app + a single `ahamie_test` database with isolated schemas per test run.

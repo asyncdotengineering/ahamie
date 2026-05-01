@@ -2,8 +2,10 @@ import { defineConfig } from "astro/config";
 import starlight from "@astrojs/starlight";
 
 // Astro + Starlight + Diataxis-discipline: tutorial / how-to / reference / explanation.
+// Hosted on GitHub Pages at https://asyncdotengineering.github.io/ahamie/
 export default defineConfig({
-  site: "https://ahamie-docs.vercel.app",
+  site: "https://asyncdotengineering.github.io",
+  base: "/ahamie",
   integrations: [
     starlight({
       title: "Ahamie",
