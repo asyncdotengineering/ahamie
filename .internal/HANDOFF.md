@@ -31,8 +31,7 @@ The **load-bearing decision document** is [`SPEC.md`](../SPEC.md) (v0 tech plan;
 | **Live docs** | https://asyncdotengineering.github.io/ahamie/ (Astro + Starlight, Diataxis-discipline, 29 pages, hosted on GitHub Pages via `.github/workflows/docs.yml`) |
 | **Marketing redirect** | https://asyncdot.com/ahamie → repo · https://asyncdot.com/ahamie-docs → docs (Vercel `vercel.json` of the `asyncdot-marketing` project) |
 | **npm packages** | https://www.npmjs.com/search?q=%40ahamie — 27 published at `0.1.1` |
-| **GitHub Pages** | `asyncdotengineering/ahamie` repo, deployed by `.github/workflows/docs.yml` on every push to `main` (paths-filter: `apps/docs/**`, `packages/**`, `connectors/**`, `examples/**`, `SPEC.md`, `README.md`, `GOVERNANCE.md`, `publishing-doc.md`, `pnpm-lock.yaml`) |
-| **Old Vercel project (deprecated)** | `octalpixels-projects/ahamie-docs` — superseded by GitHub Pages on 2026-05-02. Project still exists but no longer the canonical URL. Safe to delete. |
+| **GitHub Pages** | `asyncdotengineering/ahamie` repo, deployed by `.github/workflows/docs.yml` on every push to `main` (paths-filter: `apps/docs/**`, `packages/**`, `connectors/**`, `examples/**`, `SPEC.md`, `README.md`, `GOVERNANCE.md`, `publishing-doc.md`, `pnpm-lock.yaml`). **The only docs hosting** — Vercel project deleted 2026-05-02. |
 | **Local Postgres for tests** | `postgres://localhost:5432/ahamie_test` — Postgres.app on macOS; pgvector pre-installed; schema-isolated per test run |
 | **Spec / source of truth** | [`../SPEC.md`](../SPEC.md) — the v0 tech plan (854 lines). Treat as immutable for v0; propose edits via RFC for v1+ |
 | **Publishing runbook** | [`../publishing-doc.md`](../publishing-doc.md) — read this **before** any release |

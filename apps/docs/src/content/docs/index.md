@@ -9,7 +9,7 @@ hero:
     alt: Ahamie chibi mascot
   actions:
     - text: Quickstart
-      link: /start/quickstart/
+      link: /ahamie/start/quickstart/
       icon: right-arrow
       variant: primary
     - text: GitHub
