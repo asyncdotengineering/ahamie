@@ -43,7 +43,7 @@ Read the v0 plan in [`SPEC.md`](./SPEC.md). Live docs: [**ahamie-docs.vercel.app
 | | |
 |---|---|
 | Version | `0.1.1` (the v0 wedge — **straight out of the oven**) |
-| Repo | [github.com/octalpixel/ahamie](https://github.com/octalpixel/ahamie) |
+| Repo | [github.com/asyncdotengineering/ahamie](https://github.com/asyncdotengineering/ahamie) |
 | Docs | [ahamie-docs.vercel.app](https://ahamie-docs.vercel.app) |
 | npm | [npmjs.com/~ahamie](https://www.npmjs.com/search?q=%40ahamie) — 27 packages live |
 | Maturity | **alpha** — APIs may shift before v1; semver discipline applies |
@@ -176,7 +176,7 @@ pnpm --filter @ahamie/docs dev
 We use **DCO** (`Signed-off-by:`), not a CLA. See [`GOVERNANCE.md`](./GOVERNANCE.md).
 
 ```bash
-git clone https://github.com/octalpixel/ahamie
+git clone https://github.com/asyncdotengineering/ahamie
 cd ahamie
 pnpm install
 pnpm build

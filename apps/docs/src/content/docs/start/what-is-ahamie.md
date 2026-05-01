@@ -44,4 +44,4 @@ Mastra is the best TypeScript agent runtime today. It deliberately omits these f
 
 Layer 1 is Postgres + pgvector. Layer 2 wraps Mastra. Layer 3 is shadcn. Layer 4 is the SDK + CLI. Layer 5 is the install path.
 
-Read the full plan: [`SPEC.md`](https://github.com/octalpixel/ahamie/blob/main/SPEC.md).
+Read the full plan: [`SPEC.md`](https://github.com/asyncdotengineering/ahamie/blob/main/SPEC.md).

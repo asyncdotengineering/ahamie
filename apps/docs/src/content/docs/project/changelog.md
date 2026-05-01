@@ -5,7 +5,7 @@ description: Per-package changelogs are managed by changesets. The aggregate rel
 
 ## v0.1.0 — straight out of the oven (alpha)
 
-The wedge. 27 packages, 117 tests, full v0 build per [`SPEC.md`](https://github.com/octalpixel/ahamie/blob/main/SPEC.md).
+The wedge. 27 packages, 117 tests, full v0 build per [`SPEC.md`](https://github.com/asyncdotengineering/ahamie/blob/main/SPEC.md).
 
 | Layer | What shipped |
 |---|---|

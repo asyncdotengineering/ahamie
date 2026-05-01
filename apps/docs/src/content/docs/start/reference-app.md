@@ -42,4 +42,4 @@ src/
 - **`outcomes/`** holds the providers that *attribute* outcomes back to runs. The Linear `issue.closed` provider rejects self-closes (sensor isolation, T13).
 - **`evals/`** holds suites — every controller has one.
 
-[Source on GitHub →](https://github.com/octalpixel/ahamie/tree/main/examples/company-brain-in-a-box)
+[Source on GitHub →](https://github.com/asyncdotengineering/ahamie/tree/main/examples/company-brain-in-a-box)
